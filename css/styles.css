@@ -46,6 +46,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	vertical-align: baseline;
 	background: transparent;
 }
+
+.p1  {
+	font: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 22px;
+    clear: both;
+}
+
 body {
 	line-height: 1;
 }
@@ -839,7 +849,10 @@ body.home .topbar-outer.dark {
 	position: relative;
 }
 .home-banner.dark {
-	background-color: #312e2d;
+	background-image: url("/images/escritorio_b_n.peg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+/*	background-color: #312e2d;*/
 	color: rgba(255,255,255,0.7);
 }
 .home-banner.light {
@@ -906,7 +919,7 @@ body.home .topbar-outer.dark {
 /* Slider Style 1 - Big title & text
 /* --------------------- */
 .slide-style-1 {
-	width: 90%;
+    width: 90%;
 	display: table-cell;
 	height: 100%;
 	vertical-align: middle;
@@ -1023,7 +1036,8 @@ body.home .topbar-outer.dark {
 	overflow: visible;
 }
 .home-banner.dark .slider-nav {
-	border-top: 1px solid rgba(255,255,255,0.15);
+
+	border-top: 1px solid rgba(255,255,255,0.15);*/
 }
 .home-banner.light .slider-nav {
 	border-top: 1px solid rgba(0,0,0,0.15);
